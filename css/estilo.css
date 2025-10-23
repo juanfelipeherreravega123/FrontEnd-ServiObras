@@ -1,0 +1,62 @@
+/* 🔹 Barra superior personalizada */
+.topbar {
+  background-color: #1b5e20 !important; /* Verde oscuro */
+  color: #ffffff !important;            /* Texto blanco */
+  font-weight: bold !important;         /* Negrita */
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+.topbar .container,
+.topbar .container div,
+.topbar .container i {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
+/* 🔹 Menú de navegación */
+.navbar-nav .nav-link {
+  font-weight: 600 !important;
+  margin-left: 15px;
+  color: #333 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1b5e20 !important;
+}
+
+/* 🔹 Animación hover en tarjetas */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* Hacer que el dropdown se abra con hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* elimina el salto raro */
+}
+/* Imagen del cargador */
+section img {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* Inputs */
+form .form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Botón enviar */
+form button {
+  border-radius: 20px;
+}
+
+/* Espaciado del texto */
+section h1 {
+  margin-bottom: 15px;
+}
